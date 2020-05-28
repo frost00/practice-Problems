@@ -1,5 +1,5 @@
 # Practice-Problems
 SIG Introductory Practice Problems
 
-Problem 1: Print the sum of two user supplied integers.
+This repository should serve as a point of constructive debugging. Each problem can be solved in different ways.
 
