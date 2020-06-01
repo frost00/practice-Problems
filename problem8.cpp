@@ -14,7 +14,7 @@
 int main() {
     
     float a,b,c;
-    std::cout<<"Enter number a and b:"<<std::endl;
+    std::cout<<"Enter number a and b:\n";
     std::cin>>a;
     std::cin>>b;
     
