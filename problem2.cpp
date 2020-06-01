@@ -14,7 +14,7 @@ int main() {
     int usernumber;
     try
     {
-       std::cout<<"Enter non-negative whole number: "<<std::endl;
+       std::cout<<"Enter non-negative whole number: \n";
        std::cin>> usernumber;
        if(usernumber<0){
          usernumber =usernumber*-1;
@@ -26,7 +26,7 @@ int main() {
        
     }catch(int usernumber)
     {
-      std::cout<<"Invalid input"<<std::endl;
+      std::cout<<"Invalid input\n";
       
     }//end catch
    
