@@ -20,7 +20,7 @@ double fahrenheitCelsius(int input);
 int main() {
     
     int userInput;
-    std::cout<<"Enter Fahrenheit:"<<std::endl;
+    std::cout<<"Enter Fahrenheit:\n";
     std::cin>>userInput;
     
     printf("Conversion: %.2f",fahrenheitCelsius(userInput));
