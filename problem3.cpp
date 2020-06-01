@@ -2,26 +2,27 @@
  * SIGCPP
  * Programmer: Shayon Maramkhah
  * 
- * Description: Problem 3.
+    Description: Print the balance (not the interest) accrued on a deposit d in 
+ * n years at annual interest rate r.
  * 
  */
 
 #include <iostream>
 #include <math.h>
-//function declarations
-double balance(double dept,float rate, double year);
+
+ double balance( double dept, double rate,  double year);
 
 int main() {
     
-    double account,interestRate,years;
+     double account,interestRate,years;
 
-    std::cout<<"Make Deposit: "<<std::endl;
+    std::cout<<"Make Deposit: \n";
     std::cin>>account;
     
-    std::cout<<"Enter interest rate: "<<std::endl;
+    std::cout<<"Enter interest rate: \n";
     std::cin>>interestRate;
     
-    std::cout<<"Enter number of years: "<<std::endl;
+    std::cout<<"Enter number of years: \n";
     std::cin>>years;
 
     printf("Initial deposit: %.2f Selected Rate: %.2f Years: %.2f \n",account,interestRate,years);
@@ -32,7 +33,7 @@ int main() {
     return 0;
 }
 
-double balance(double dept, float rate, double year)
+ double balance( double dept,  double rate,  double year)
 {
     return dept*(1+rate*year);
 }
