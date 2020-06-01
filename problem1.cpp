@@ -9,7 +9,7 @@
 #include <iostream>
 
 int main() {
-    std::cout<<"Enter first number"<<std::endl;
+    std::cout<<"Enter first and second number\n";
     unsigned valueOne,valueTwo;
     std::cin >> valueOne;
     std::cin >> valueTwo;
