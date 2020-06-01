@@ -15,11 +15,10 @@
 
 double degreeRadian(double input);
 
-
 int main() {
     
     double userInput;
-    std::cout<<"Enter Angle in degrees: "<<std::endl;
+    std::cout<<"Enter Angle in degrees: \n";
     std::cin>>userInput;
     
     printf("Conversion: %.4f",degreeRadian(userInput));
