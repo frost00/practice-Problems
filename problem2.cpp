@@ -1,16 +1,16 @@
 /*
  * SIGCPP
  * Programmer: Shayon Maramkhah
- * 
- * Description: User input validation included. Problem 2.
+ 
+ * Problem2
+ * Description: User input validation included. Print the least-significant digit of any non-negative whole number 
+    the user supplies.
  * 
  */
-
 #include <iostream>
 //function declarations
 
 int main() {
-
     int usernumber;
     try
     {
@@ -20,19 +20,13 @@ int main() {
          usernumber =usernumber*-1;
            throw usernumber;
        }
-       
        if(usernumber%2!=0)
            throw usernumber;
-       
     }catch(int usernumber)
     {
       std::cout<<"Invalid input\n";
-      
     }//end catch
-   
-    
     printf("result %d: ",usernumber%10);
 
-    
     return 0;
 }
