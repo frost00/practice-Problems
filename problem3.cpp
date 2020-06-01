@@ -14,7 +14,7 @@
 
 int main() {
     
-     double account,interestRate,years;
+    double account,interestRate,years;
 
     std::cout<<"Make Deposit: \n";
     std::cin>>account;
@@ -26,9 +26,7 @@ int main() {
     std::cin>>years;
 
     printf("Initial deposit: %.2f Selected Rate: %.2f Years: %.2f \n",account,interestRate,years);
-    
     printf("Resulting balance:%.2f \n",balance(account,interestRate,years));
-
     
     return 0;
 }
