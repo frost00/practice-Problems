@@ -7,9 +7,7 @@
  * variables before swapping and after swapping.
  * 
  */
-
 #include <iostream>
-#include <math.h>
 
 int main() {
     
@@ -25,8 +23,6 @@ int main() {
     b=c-b;
     printf("Swapped input a: %.2f and User input b: %.2f \n",a,b);
 
-    
-    
     return 0;
 }
 
