@@ -11,16 +11,17 @@
 
 int main() {
     
-    float a,b,c;
+    float a,b;
     std::cout<<"Enter number a and b:\n";
     std::cin>>a;
     std::cin>>b;
     
-    printf("User input a: %.2f and User input b: %.2f ",a,b);
+    printf("User input a: %.2f and User input b: %.2f \n",a,b);
     
-    c= a+b;
-    a=c-a;
-    b=c-b;
+   
+    a=a+b;
+    b=a-b;
+    a=a-b;
     printf("Swapped input a: %.2f and User input b: %.2f \n",a,b);
 
     return 0;
